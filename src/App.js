@@ -44,7 +44,7 @@ const App = () => {
           <input type="number" placeholder='Enter your guess.' required 
             onChange={handleChange}
           />
-          {gameStart ? <button onClick={(event) => {event.preventDefault(); setGameStart(false)}}>Start game</button> : <button onClick={(event) => {event.preventDefault(); (input !== "") ? (input  > 100 ? playgame() : alert("Your guess should not be greater than 100.")) : alert("Error! Fill in your guess.")}}>Submit</button>}
+          {gameStart ? <button onClick={(event) => {event.preventDefault(); setGameStart(false)}}>Start game</button> : <button onClick={(event) => {event.preventDefault(); (input !== "") ? (input  < 100 ? playgame() : alert("Your guess should not be greater than 100.")) : alert("Error! Fill in your guess.")}}>Submit</button>}
         </form>
 
         <div className="result">
