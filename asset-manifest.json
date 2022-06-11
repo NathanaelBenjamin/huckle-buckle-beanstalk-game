@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/huckle-buckle-beanstalk-game/static/css/main.1e0583a7.css",
-    "main.js": "/huckle-buckle-beanstalk-game/static/js/main.1dcc0b44.js",
+    "main.css": "/huckle-buckle-beanstalk-game/static/css/main.1b931a4d.css",
+    "main.js": "/huckle-buckle-beanstalk-game/static/js/main.de4cf6bc.js",
     "index.html": "/huckle-buckle-beanstalk-game/index.html",
-    "main.1e0583a7.css.map": "/huckle-buckle-beanstalk-game/static/css/main.1e0583a7.css.map",
-    "main.1dcc0b44.js.map": "/huckle-buckle-beanstalk-game/static/js/main.1dcc0b44.js.map"
+    "main.1b931a4d.css.map": "/huckle-buckle-beanstalk-game/static/css/main.1b931a4d.css.map",
+    "main.de4cf6bc.js.map": "/huckle-buckle-beanstalk-game/static/js/main.de4cf6bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e0583a7.css",
-    "static/js/main.1dcc0b44.js"
+    "static/css/main.1b931a4d.css",
+    "static/js/main.de4cf6bc.js"
   ]
 }
