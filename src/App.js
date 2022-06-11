@@ -40,6 +40,12 @@ const App = () => {
   return (
     <div className='container'>
       <div className="game-body">
+
+        <div className="instructions">
+          <h2>Huckle Buckle Beanstalk Game - programmed version.</h2>
+          <p>The computer hides a number. You guess where it is till you find it. Enjoy!</p>
+        </div>
+
         <form>
           <input type="number" placeholder='Enter your guess.' required 
             onChange={handleChange}
